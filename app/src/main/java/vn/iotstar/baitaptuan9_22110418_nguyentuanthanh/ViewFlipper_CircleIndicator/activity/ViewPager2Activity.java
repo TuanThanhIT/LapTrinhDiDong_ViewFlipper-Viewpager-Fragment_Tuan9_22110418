@@ -45,7 +45,7 @@ public class ViewPager2Activity extends AppCompatActivity {
             public void onPageSelected(int position) {
                 super.onPageSelected(position);
                 handler.removeCallbacks(runnable);
-                handler.postDelayed(runnable, 3000); // Chạy auto slide sau 3 giây
+                handler.postDelayed(runnable, 3000); // Chạy auto slide sau 5 giây
             }
         });
 

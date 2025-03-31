@@ -17,7 +17,7 @@
         android:theme="@style/Theme.BaiTapTuan9_22110418_NguyenTuanThanh"
         tools:targetApi="31">
         <activity
-            android:name=".ViewFlipper_CircleIndicator.activity.SliderActivity"
+            android:name=".ViewFlipper_CircleIndicator.activity.ViewPagerActivityBT"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
